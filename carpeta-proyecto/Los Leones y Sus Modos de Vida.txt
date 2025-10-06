@@ -32,5 +32,6 @@ Diseño adaptable (Responsive Design)
 Incorporación de buenas prácticas de accesibilidad y organización visual
 
 Este sitio puede ser útil como recurso educativo o divulgativo, y representa una aplicación práctica de los conocimientos fundamentales 
-en desarrollo web
+en desarrollo web.
+
 
