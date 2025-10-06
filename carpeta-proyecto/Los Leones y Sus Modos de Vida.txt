@@ -1,0 +1,36 @@
+Datos del Alumno
+
+Nombre del Alumno: Armand Leonardo Rodríguez Olivera
+
+Carrera: Ingeniería en Sistemas Computacionales
+
+Materia: Programación Web
+
+Institución: Instituto Tecnológico de Cancún
+
+Año: 2025
+
+
+"Los Leones y Sus Modos de Vida"
+
+Este proyecto web está enfocado en presentar de forma clara, educativa y visualmente atractiva la vida de los leones, uno de los 
+depredadores más icónicos del mundo animal. A través de una estructura HTML semántica y un diseño estilizado con CSS, se abordan 
+aspectos esenciales como su hábitat, alimentación, comportamiento social y curiosidades. Se hace uso de etiquetas modernas, 
+organización con secciones y artículos, enlaces externos relevantes y elementos multimedia para mejorar la experiencia del usuario. 
+Además, se aplican principios de diseño responsivo para garantizar una correcta visualización en distintos dispositivos.
+
+El objetivo principal del proyecto es demostrar habilidades adquiridas en la materia de Programación Web, tales como:
+
+Estructuración con HTML5
+
+Estilización mediante CSS3
+
+Uso correcto de etiquetas semánticas
+
+Diseño adaptable (Responsive Design)
+
+Incorporación de buenas prácticas de accesibilidad y organización visual
+
+Este sitio puede ser útil como recurso educativo o divulgativo, y representa una aplicación práctica de los conocimientos fundamentales 
+en desarrollo web
+
