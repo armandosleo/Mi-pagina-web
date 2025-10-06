@@ -1,0 +1,247 @@
+/* --------------------------------------
+   1. CONFIGURACIÓN GLOBAL
+---------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfcf9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* --------------------------------------
+   2. ENCABEZADO (<header>)
+---------------------------------------- */
+header { 
+  background-color: #fff3e0;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 4px solid #ffa726;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #e65100;
+}
+
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+header img {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Icono decorativo con ::before */
+header::before {
+  content: "🦁";
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 2rem;
+}
+
+/* --------------------------------------
+   3. NAVEGACIÓN (<nav>)
+---------------------------------------- */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #ffe0b2;
+}
+
+/* --------------------------------------
+   4. CONTENIDO PRINCIPAL (<main>)
+---------------------------------------- */
+main {
+  padding: 40px 20px;
+}
+
+/* SECCIONES */
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #bf360c;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ffab91;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #5d4037;
+  margin-bottom: 10px;
+  margin-top: 40px;   /* Espacio arriba */
+}
+
+/* ARTÍCULOS */
+article {
+  background-color: #fff8e1;
+  border-left: 6px solid #ffcc80;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* FIGURE Y CAPTION */
+figure {
+  text-align: center;
+  margin-top: 20px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* --------------------------------------
+   5. ASIDE (Contenido adicional)
+---------------------------------------- */
+aside {
+  background-color: #f1f8e9;
+  padding: 20px;
+  border-left: 5px dashed #aed581;
+  margin-top: 40px;
+}
+
+aside ul {
+  list-style: disc inside;
+  margin-top: 10px;
+}
+
+aside a {
+  color: #2e7d32;
+  text-decoration: underline;
+}
+
+aside a:hover {
+  color: #1b5e20;
+}
+
+/* --------------------------------------
+   6. PIE DE PÁGINA (<footer>)
+---------------------------------------- */
+footer {
+  background-color: #263238;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffcc80;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* --------------------------------------
+   7. TIPOGRAFÍA Y DETALLES DE TEXTO
+---------------------------------------- */
+p::first-letter {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+strong {
+  color: #d84315;
+}
+
+em {
+  color: #6d4c41;
+}
+
+mark {
+  background-color: #fff176;
+  padding: 0 4px;
+}
+
+/* --------------------------------------
+   8. LISTAS
+---------------------------------------- */
+ol {
+  margin: 10px 0 10px 20px;
+}
+
+ul {
+  margin: 10px 0 10px 20px;
+}
+
+/* --------------------------------------
+   9. RESPONSIVE / ADAPTACIÓN A PANTALLAS PEQUEÑAS
+---------------------------------------- */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  header::before {
+    left: 10px;
+    top: 10px;
+  }
+}
+
+/* --------------------------------------
+   10. POSICIONAMIENTO EXTRA (ejemplo)
+---------------------------------------- */
+#curiosidades {
+  position: relative;
+}
+/* --------------------------------------
+   11. CLASE PARA CENTRAR IMÁGENES
+---------------------------------------- */
+.img-centrada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.imagenes-centradas {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espacio entre imágenes */
+  flex-wrap: wrap; /* Por si no caben en una línea */
+  margin: 20px 0;
+}
